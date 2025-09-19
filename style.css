@@ -1,0 +1,127 @@
+/* Fundo geral */
+body {
+  background: #f7f8fb;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Calendário */
+#calendar {
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Botões do calendário e seleção de datas em laranja */
+.fc .fc-button, 
+.fc .fc-button:hover,
+.fc .fc-button-primary {
+  background-color: #1a037e;
+  border-color: #1a037e;
+  color: #fff;
+  font-weight: 600;
+}
+
+.fc .fc-button-primary:hover {
+  background-color: #914303;
+  border-color: #914303;
+}
+
+.fc .fc-col-header-cell-cushion {
+  color: #1a037e;
+  font-weight: 600;
+}
+
+/* Botões Laranja gerais */
+.btn-orange {
+  background-color: #1a037e;
+  border-color: #1a037e;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-orange:hover {
+  background-color: #914303;
+  border-color: #914303;
+}
+
+/* Títulos */
+h2, h3 {
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Formulário de reserva */
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Labels */
+.form-label {
+  font-weight: 500;
+}
+
+/* Ajuste para evitar barra de rolagem em modais de pop-up */
+.modal-body {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+/* Ajuste responsivo do calendário */
+@media (max-width: 991px) {
+  #calendar {
+    margin-bottom: 30px;
+  }
+}
+
+/* Ajustes para smartphone */
+@media (max-width: 768px) {
+  /* Calendário ocupa toda a largura */
+  #calendar {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.85rem;
+  }
+
+  /* Títulos menores */
+  h2, h3 {
+    font-size: 1.4rem;
+  }
+
+  /* Formulário: colunas empilhadas */
+  .row > .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* Inputs e selects menores */
+  .form-control, .form-select {
+    font-size: 0.9rem;
+    padding: 6px 8px;
+  }
+
+  /* Botões menores e centralizados */
+  .btn-orange {
+    font-size: 0.9rem;
+    padding: 8px 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* Área de login/logout */
+  #user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+}
