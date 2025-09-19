@@ -5,12 +5,12 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChang
 
 // Configurações do Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyC5_WjpFFoOSl8PLUWyqSQqWgqQXLSxa18",
-  authDomain: "reserva-sala-reuniao-sevs.firebaseapp.com",
-  projectId: "reserva-sala-reuniao-sevs",
-  storageBucket: "reserva-sala-reuniao-sevs.firebasestorage.app",
-  messagingSenderId: "702767766088",
-  appId: "1:702767766088:web:8af6eca7151a15ccae167d"
+  apiKey: "AIzaSyDyoOaUnzHYVM73l8bd8VvF_MCElMByF1U",
+  authDomain: "reserva-sala-d3da5.firebaseapp.com",
+  projectId: "reserva-sala-d3da5",
+  storageBucket: "reserva-sala-d3da5.firebasestorage.app",
+  messagingSenderId: "274959472378",
+  appId: "1:274959472378:web:27733803b421d01ebc5b43"
 };
 
 // Inicializa Firebase
