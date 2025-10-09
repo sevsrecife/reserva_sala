@@ -67,6 +67,7 @@ onAuthStateChanged(auth, (user) => {
 
 // Inicializa FullCalendar e ouvinte do Firestore
 document.addEventListener("DOMContentLoaded", function () {
+    alert("Atenção: A sala de reunião não possui computador disponível. Caso necessário, o usuário deverá levar seu equipamento!");
     const calendarEl = document.getElementById("calendar");
     const calendar = new FullCalendar.Calendar(calendarEl, {
         initialView: "dayGridMonth",
